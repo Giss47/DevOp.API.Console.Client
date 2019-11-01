@@ -9,4 +9,8 @@
     <PackageReference Include="Terminal.Gui" Version="0.24.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DevOpsApiClient\DevOpsApiClient.csproj" />
+  </ItemGroup>
+
 </Project>
