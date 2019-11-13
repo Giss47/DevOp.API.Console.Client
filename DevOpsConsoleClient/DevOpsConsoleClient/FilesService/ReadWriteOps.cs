@@ -69,9 +69,5 @@ namespace Hawk.Console.Client
                 ? default
                 : JsonConvert.DeserializeObject<T>(json);
         }
-
-        public static void Test()
-        {
-        }
     }
 }
